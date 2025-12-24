@@ -1,0 +1,78 @@
+{
+    "id": 1,
+    "title": "Test Board 1",
+    "createdAt": "2025-07-21T02:18:59.660Z",
+    "updatedAt": "2025-07-21T02:18:59.660Z",
+    "Users": [
+        {
+            "username": "test_user",
+            "BoardMemberships": {
+                "owns_board": true
+            }
+        }
+    ],
+    "Categories": [
+        {
+            "id": 1,
+            "title": "Test Category 1",
+            "createdAt": "2025-07-21T02:25:03.131Z",
+            "updatedAt": "2025-07-21T02:25:03.131Z",
+            "BoardId": 1,
+            "Notes": [
+                {
+                    "id": 1,
+                    "title": "Test Note 1",
+                    "content": "Example note description..."
+                },
+                {
+                    "id": 6,
+                    "title": "Test Note 2",
+                    "content": "Example note description..."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Test Category 2",
+            "createdAt": "2025-07-21T02:25:26.639Z",
+            "updatedAt": "2025-07-21T02:25:26.639Z",
+            "BoardId": 1,
+            "Notes": [
+                {
+                    "id": 2,
+                    "title": "Test Note 1",
+                    "content": "Example note description..."
+                },
+                {
+                    "id": 5,
+                    "title": "Test Note 2",
+                    "content": "Example note description..."
+                },
+                {
+                    "id": 7,
+                    "title": "Test Note 3",
+                    "content": "Example note description..."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Test Category 3",
+            "createdAt": "2025-07-21T02:25:30.059Z",
+            "updatedAt": "2025-07-21T02:25:30.059Z",
+            "BoardId": 1,
+            "Notes": [
+                {
+                    "id": 3,
+                    "title": "Test Note 1",
+                    "content": "Example note description..."
+                },
+                {
+                    "id": 4,
+                    "title": "Test Note 2",
+                    "content": "Example note description..."
+                }
+            ]
+        }
+    ]
+}

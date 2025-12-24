@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KanbanApp</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="board.css">
+</head>
+
+<body>
+
+  <!-- Nav bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <div class="container-fluid">
+      <!-- Dashboard link -->
+      <a class="navbar-brand fw-bold" href="#">
+        <i class="fas fa-th-large me-2"></i>KanbanApp
+      </a>
+
+      <!-- Board title -->
+      <div class="navbar-nav mx-auto d-none d-lg-block">
+        <span class="navbar-text fs-5">
+          Viewing: <strong>Board Name</strong>
+        </span>
+      </div>
+
+      <!-- User profile dropdown -->
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <img src="profile.png" class="rounded-circle" alt="User" width="30" height="30">
+            <span class="d-none d-sm-inline ms-1">User Name</span>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="profile.html"><i class="fas fa-user-circle me-2"></i>Profile</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fas fa-cog me-2"></i>Settings</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="login.html"><i class="fas fa-sign-out-alt me-2"></i>Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Kanban board -->
+  <div class="kanban-board">
+    <!-- Example columns: -->
+    <!-- Column: To Do -->
+    <div class="kanban-column">
+      <div class="kanban-column-header">
+        <h5>To Do</h5>
+      </div>
+      <div class="kanban-entries">
+
+        <div class="kanban-entry">
+          <h6>Example entry title 1</h6>
+          <p class="small">Example entry summary.</p>
+          <span class="tag-label">Example Tag 1</span>
+        </div>
+
+        <div class="kanban-entry">
+          <h6>Example entry title 2</h6>
+          <p class="small">Example entry summary.</p>
+          <span class="tag-label">Example Tag 1</span>
+          <span class="tag-label">Example Tag 2</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Column: In Progress -->
+    <div class="kanban-column">
+      <div class="kanban-column-header">
+        <h5>In Progress</h5>
+      </div>
+      <div class="kanban-entries">
+
+        <div class="kanban-entry">
+          <h6>Example entry title 1</h6>
+          <p class="small">Example entry summary.</p>
+          <span class="tag-label">Example Tag 1</span>
+        </div>
+
+        <div class="kanban-entry">
+          <h6>Example entry title 2</h6>
+          <p class="small">Example entry summary.</p>
+          <span class="tag-label">Example Tag 1</span>
+          <span class="tag-label">Example Tag 2</span>
+          <span class="tag-label">Example Tag 3</span>
+        </div>
+
+        <div class="kanban-entry">
+          <h6>Example entry title 3</h6>
+          <p class="small">Example entry summary.</p>
+          <span class="tag-label">Example Tag 1</span>
+          <span class="tag-label">Example Tag 2</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Column: Complete -->
+    <div class="kanban-column">
+      <div class="kanban-column-header">
+        <h5>Complete</h5>
+      </div>
+      <div class="kanban-entries">
+
+        <div class="kanban-entry">
+          <h6>Example entry title 1</h6>
+          <p class="small">Example entry summary.</p>
+          <span class="tag-label">Example Tag 1</span>
+        </div>
+
+        <div class="kanban-entry">
+          <h6>Example entry title 2</h6>
+          <p class="small">Example entry summary.</p>
+          <span class="tag-label">Example Tag 1</span>
+          <span class="tag-label">Example Tag 2</span>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+
+  <script>
+  </script>
+</body>
+
+</html>

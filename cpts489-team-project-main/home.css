@@ -1,0 +1,7 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    border-bottom: 0.25rem solid rgba(0, 60, 255, 0.7);
+}

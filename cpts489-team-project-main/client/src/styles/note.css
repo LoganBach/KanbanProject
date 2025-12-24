@@ -1,0 +1,89 @@
+.note-title-editable {
+    cursor: pointer;
+    width: 100%;
+    margin-right: 5px;
+    transition: background-color 0.2s ease;
+}
+
+.note-title-editable:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+    border-radius: 0.25rem;
+}
+
+.note-content-editable {
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    min-height: 1.2em;
+}
+
+.note-content-editable:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+    border-radius: 0.25rem;
+}
+
+.note-title-input {
+    width: 100%;
+    border: 2px solid #007bff;
+    border-radius: 0.25rem;
+    background-color: #fff;
+}
+
+.note-title-input:focus {
+    outline: none;
+    border-color: #0056b3;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.note-content-input {
+    width: 100%;
+    border: 2px solid #007bff;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    background-color: #fff;
+    resize: vertical;
+    min-height: 60px;
+}
+
+.note-content-input:focus {
+    outline: none;
+    border-color: #0056b3;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Drag and drop styles */
+.kanban-note[draggable="true"] {
+    cursor: grab;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.kanban-note[draggable="true"]:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.kanban-note[draggable="true"]:active {
+    cursor: grabbing;
+    opacity: 0.8;
+}
+
+.note-header-wrapper {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.note-header-wrapper .btn-danger {
+    opacity: 0.25;
+}
+
+.note-header-wrapper .btn-danger:hover {
+    opacity: 0.8;
+}
+
+.btn-add-note {
+    padding: 0.25rem 0.5rem;
+    opacity: 0.35;
+}

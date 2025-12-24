@@ -1,0 +1,60 @@
+/* Admin Dashboard Styles */
+
+.user-card {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease;
+}
+
+.user-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.user-card h4 {
+    margin: 0 0 8px 0;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.user-card p {
+    margin: 0 0 12px 0;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.delete-user-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.delete-user-btn:hover {
+    background-color: #c82333;
+}
+
+.delete-user-btn:active {
+    background-color: #bd2130;
+}
+
+.user-management-section {
+    margin-top: 20px;
+}
+
+.user-management-section h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.users-list {
+    max-width: 600px;
+}

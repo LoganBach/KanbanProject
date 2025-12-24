@@ -1,0 +1,42 @@
+[
+    {
+        "username": "test_user",
+        "is_admin": false,
+        "Boards": [
+            {
+                "id": 3,
+                "title": "Test Board 3",
+                "BoardMemberships": {
+                    "owns_board": false
+                }
+            },
+            {
+                "id": 1,
+                "title": "Test Board 1",
+                "BoardMemberships": {
+                    "owns_board": true
+                }
+            },
+            {
+                "id": 2,
+                "title": "Test Board 2",
+                "BoardMemberships": {
+                    "owns_board": true
+                }
+            }
+        ]
+    },
+    {
+        "username": "test_user2",
+        "is_admin": true,
+        "Boards": [
+            {
+                "id": 3,
+                "title": "Test Board 3",
+                "BoardMemberships": {
+                    "owns_board": true
+                }
+            }
+        ]
+    }
+]

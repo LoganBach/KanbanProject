@@ -1,0 +1,46 @@
+
+wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+form {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vh;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+
+
+div {
+    width: 100%;
+}
+
+button{
+    width: 100%;
+    margin-top: 5px;
+}
+
+#regRedirect {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navbar {
+    border-bottom: 0.25rem solid rgba(0, 60, 255, 0.7);
+}
+
+
+

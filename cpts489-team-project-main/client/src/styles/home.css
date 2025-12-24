@@ -1,0 +1,36 @@
+.container {
+    max-width: 1200px;
+}
+
+.board-card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.board-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Board header styling */
+.board-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.create-board-btn {
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.create-board-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.board-section h4 {
+    color: #495057;
+    border-bottom: 2px solid #e9ecef;
+}

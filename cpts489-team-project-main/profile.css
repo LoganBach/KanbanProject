@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+#headerBlock{
+    
+    height: fit-content;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+#wrapper{
+    padding: 50px;
+}
+
+.infoBlock {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+h3{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+#infoWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label{
+    width: 150px;
+}
+
+input {
+    width: 100px;
+}
+
+#disNameInp {
+    width: 400px;
+}
+
+p {
+    width: 400px;
+}
+
+#profPicInfo {
+    width: 200px;
+}
+
+#changePicBtn {
+    width: 200px;
+}
+
+.navbar {
+    border-bottom: 0.25rem solid rgba(0, 60, 255, 0.7);
+}
+

@@ -1,0 +1,13 @@
+.titled-container {
+    display: flex;
+}
+
+.titled-container form {
+    width: 60vh;
+    padding: 1rem;
+}
+
+#titleLogo {
+    display: block;
+    text-align: center;
+}
